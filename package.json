@@ -1,0 +1,26 @@
+{
+	"name": "developer-excuses-api",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"dev": "nodemon src/server.ts",
+		"seed": "ts-node src/developer-excuses/seed.developer-excuses.ts"
+	},
+	"dependencies": {
+		"@fastify/cors": "^8.2.0",
+		"@types/fastify-cors": "^2.1.0",
+		"@types/node": "^18.11.18",
+		"@types/pino": "^7.0.5",
+		"dotenv": "^16.0.3",
+		"fastify": "^4.10.2",
+		"fastify-blipp": "^3.1.0",
+		"fastify-cors": "^6.1.0",
+		"mongoose": "^6.8.2",
+		"nodemon": "^2.0.20",
+		"pino": "^8.8.0",
+		"pino-pretty": "^9.1.1",
+		"ts-node": "^10.9.1",
+		"typescript": "^4.9.4"
+	}
+}
