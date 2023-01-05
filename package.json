@@ -4,7 +4,7 @@
 	"main": "index.js",
 	"license": "MIT",
 	"scripts": {
-		"dev": "nodemon src/server.ts",
+		"start": "nodemon src/server.ts",
 		"seed": "ts-node src/developer-excuses/seed.developer-excuses.ts"
 	},
 	"dependencies": {
